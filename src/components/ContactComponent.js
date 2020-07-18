@@ -43,10 +43,7 @@ class Contact extends Component {
 
     }
 
-
-
     render() {
-
         return (
             <div className="container">
                 <div className="row">

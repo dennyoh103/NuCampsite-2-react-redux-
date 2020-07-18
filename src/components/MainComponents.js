@@ -9,6 +9,9 @@ import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import About from './AboutComponent';
 
+//takes portion (or all) of your store/state, and passes it into the component.
+// And the component now has that store data connected with it. 
+// And it became a 'container' by executing line the very last line.   --- export default withRouter(connect(mapStateToProps)(Main));
 
 const mapStateToProps = state => {
     return {

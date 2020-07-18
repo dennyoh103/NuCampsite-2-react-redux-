@@ -12,6 +12,8 @@ class App extends Component {
 
     render() {
         return (
+
+            //Provider makes all of the store/state data, available to the component inside, which in this case is <Main />
             <Provider store={store}>
                 <BrowserRouter>
                     <div className="App">
