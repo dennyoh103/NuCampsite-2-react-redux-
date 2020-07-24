@@ -1,5 +1,8 @@
 import * as ActionTypes from './ActionTypes';
 
+
+
+//REDUCER - CAMPSITES
 export const Campsites = (state = {
     isLoading: true,
     errMess: null,
